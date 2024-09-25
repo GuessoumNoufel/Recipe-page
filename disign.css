@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  /* background-color: blue; */
+  color: #495057;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: Poppins;
+  font-size: 1.7rem;
+}
+html {
+  font-size: 62.5%;
+}
+.omleette-pic {
+  /* display: flex; */
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 4rem auto;
+  border-radius: 1.8rem;
+  /* margin-top: 30px; */
+}
+.contianer {
+  display: block;
+  max-width: 80rem;
+  margin: 8rem auto;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 0.2rem 4.5rem 4.5rem 4.5rem;
+}
+h1 {
+  font-size: 5rem;
+  letter-spacing: -0.1rem;
+  font-weight: 800;
+  /* font-style: oblique; */
+  font-family: Young-serif;
+  margin-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+.first-par {
+  font-size: 1.6rem;
+  /* background-color: aquamarine; */
+  padding: 0 1.3rem 4rem 0;
+}
+.time-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.9rem;
+  gap: 1.5rem;
+
+  font-size: 1.6rem;
+}
+strong {
+  color: hsl(332, 51%, 32%);
+}
+.title {
+  color: hsl(332, 51%, 32%);
+  font-size: 2.5rem;
+  padding-left: 1.4rem;
+  list-style-type: none;
+  margin-bottom: 1.6rem;
+}
+.time li {
+  padding-left: 1.8rem;
+}
+.time li::marker {
+  font-size: 1.2rem;
+}
+.time {
+  background-color: rgba(131, 24, 61, 0.034);
+  padding: 2.3rem;
+  margin-bottom: 3.8rem;
+  border-radius: 1.6rem;
+}
+.ingrd {
+  color: #1f3303;
+  font-size: 3rem;
+  font-family: Young-serif;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+}
+.ing-list {
+  padding-left: 2.3rem;
+  border-bottom: 0.2rem solid rgba(128, 128, 128, 0.164);
+  padding-bottom: 2.3rem;
+  margin-bottom: 2.8rem;
+}
+.ing-list li {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+.instractions {
+  color: #1f3303;
+  font-size: 3rem;
+  font-family: Young-serif;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+  margin-bottom: 3rem;
+}
+.instractions-list li::marker {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.747);
+  font-family: sans-serif;
+}
+.instractions-list li {
+  padding-left: 1.5rem;
+
+  line-height: 1.9;
+}
+.instractions-list {
+  padding-left: 1.6rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.2rem solid rgba(128, 128, 128, 0.164);
+  margin-bottom: 3.5rem;
+}
+.Nutrition {
+  color: #1f3303;
+  font-size: 3rem;
+  font-family: Young-serif;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+  margin-bottom: 3rem;
+}
+.Nutrition-table {
+  width: 100%;
+  margin-top: 2.5rem;
+  border-collapse: collapse;
+}
+.Nutrition-table td {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+.Nutrition-table tr:not(:last-child) {
+  border-bottom: 0.1rem solid #efe1cd;
+}
+.Nutrition-table td:nth-child(2) {
+  text-align: left;
+  font-weight: bold;
+  color: rgb(131, 24, 62);
+}
+.Nutrition-table td:nth-child(1) {
+  padding-left: 2.8rem;
+}
+.fifo {
+  margin-top: 3rem;
+}
+
+@media (max-width: 38em) {
+  html {
+    font-size: 52.5%;
+  }
+  body {
+    background-color: white;
+    margin-left: 3.5rem;
+  }
+  .contianer {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 3rem;
+  }
+  .omleette-pic {
+    /* margin: 0 0 0 -3rem; */
+    border-radius: 0;
+    width: 110%;
+    margin: 0 0 0 -3.7rem;
+  }
+  h1 {
+    font-size: 4.6rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .time {
+    /* padding: 0; */
+    margin: 0 4rem 2rem 1rem;
+  }
+}
